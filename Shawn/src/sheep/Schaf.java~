@@ -1,0 +1,43 @@
+
+public class Schaf {
+
+   
+    Ellipse Rumpf;
+	Ellipse Schwanz;
+	Ellipse Bein1;
+	Ellipse Bein2;
+	Ellipse Bein3;
+	Ellipse Bein4;
+	Ellipse Kopf;
+	Ellipse Ohr1;
+	Ellipse Ohr2;
+	Ellipse Auge1;
+	Ellipse Auge2;
+	Ellipse Pupille1;
+	Ellipse Pupille2;
+	Ellipse Nasenloch1;
+	Ellipse Nasenloch2;
+
+	
+    int positionX;
+    int positionY;
+    
+  
+    Schaf(int x, int y) {
+    	    
+        positionX = x;
+        positionY = y;
+		
+        Rumpf = new Ellipse(180, 120, x, y, "blue");
+		
+    
+   
+	}
+   
+    void draw() {
+    	    
+        Rumpf.draw(); 
+		
+    		}
+        
+}
